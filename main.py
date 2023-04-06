@@ -1,8 +1,10 @@
 from flask import Flask, render_template, request
+from key import Key_gpt
 import openai
 
 app = Flask(__name__)
-openai.api_key = ''
+openai.api_key = Key_gpt
+
 conversations = []
 @app.route('/', methods=['GET', 'POST'])
 def home():

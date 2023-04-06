@@ -1,0 +1,2 @@
+engine,prompt,temperature,max_tokens,top_p,frequency_penalty,presence_penalty
+text-davinci-003,question,0.5,150,1,0,0.6
